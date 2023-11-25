@@ -1,0 +1,47 @@
+.my-form{
+    margin: 200px auto;
+    padding-left: 25%;
+    padding-right: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+.my-btn{
+    width: 20%;
+    
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+}
+
+.inside-style{
+    margin-top: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #F1F5F9;
+    
+}
+.button-containers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.inside-inside-buttons{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+@media (max-width:600px) {
+    .my-form{
+        padding: 0px;
+        margin: 150px auto;
+    }
+    
+}
