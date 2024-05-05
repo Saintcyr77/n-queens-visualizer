@@ -9,6 +9,7 @@ function App() {
   const [result, setResult] = useState([]);
   return (
     <>
+    //added a commment for git
       <Appcontext.Provider value={{ setResult, result }}>
       
       <Nqueens/>
